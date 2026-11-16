@@ -6,3 +6,4 @@ This project covers reading and writing files in Python.
 
 - `0-read_file.py`: function `read_file(filename="")` that reads a UTF8 text file and prints it to stdout.
 - `1-write_file.py`: function `write_file(filename="", text="")` that writes a string to a UTF8 text file and returns the number of characters written.
+- `2-append_write.py`: function `append_write(filename="", text="")` that appends a string to a UTF8 text file and returns the number of characters added.
