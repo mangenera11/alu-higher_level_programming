@@ -10,3 +10,5 @@ This project covers the basics of working with a MySQL database.
 - `3-list_tables.sql`: script that lists all the tables of a database in the MySQL server.
 - `4-first_table.sql`: script that creates a table called `first_table` (`id INT`, `name VARCHAR(256)`) in the current database.
 - `5-full_table.sql`: script that prints the full description of the table `first_table` from the database `hbtn_0c_0`.
+- `6-list_values.sql`: script that lists all rows of the table `first_table` from the database `hbtn_0c_0`.
+- `7-insert_value.sql`: script that inserts a new row (`id = 89`, `name = Best School`) in the table `first_table`.
