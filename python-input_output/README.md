@@ -14,3 +14,4 @@ This project covers reading and writing files in Python.
 - `7-add_item.py`: script that adds all arguments to a Python list and saves them to `add_item.json`.
 - `8-class_to_json.py`: function `class_to_json(obj)` that returns the dictionary description of an object for JSON serialization.
 - `9-student.py`: class `Student` with `first_name`, `last_name`, `age` and a `to_json()` method that returns its dictionary description.
+- `10-student.py`: class `Student` whose `to_json(attrs=None)` returns its dictionary description, filtered to the attribute names in `attrs` when given a list of strings.
