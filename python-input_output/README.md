@@ -16,3 +16,4 @@ This project covers reading and writing files in Python.
 - `9-student.py`: class `Student` with `first_name`, `last_name`, `age` and a `to_json()` method that returns its dictionary description.
 - `10-student.py`: class `Student` whose `to_json(attrs=None)` returns its dictionary description, filtered to the attribute names in `attrs` when given a list of strings.
 - `11-student.py`: class `Student` with `to_json(attrs=None)` and `reload_from_json(json)` to serialize and rebuild its attributes.
+- `12-pascal_triangle.py`: function `pascal_triangle(n)` that returns a list of lists of integers representing Pascal's triangle of `n`.
