@@ -12,3 +12,4 @@ This project covers reading and writing files in Python.
 - `5-save_to_json_file.py`: function `save_to_json_file(my_obj, filename)` that writes an object to a text file using its JSON representation.
 - `6-load_from_json_file.py`: function `load_from_json_file(filename)` that creates an object from a JSON file.
 - `7-add_item.py`: script that adds all arguments to a Python list and saves them to `add_item.json`.
+- `8-class_to_json.py`: function `class_to_json(obj)` that returns the dictionary description of an object for JSON serialization.
