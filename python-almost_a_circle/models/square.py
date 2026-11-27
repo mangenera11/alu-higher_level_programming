@@ -54,3 +54,16 @@ class Square(Rectangle):
         """Return the dictionary representation of the square."""
         return {"id": self.id, "size": self.size,
                 "x": self.x, "y": self.y}
+
+    @classmethod
+    def save_to_file(cls, list_objs):
+        """Save objects to a JSON file."""
+        import json
+
+        filename = cls.__name__ + ".json"
+
+        if list_objs is None:
+            list_objs = []
+
+        with open(filename, "w", encoding="utf-8") as file:
+            json.dump([obj.to_dictionary() for obj in list_objs], file)
